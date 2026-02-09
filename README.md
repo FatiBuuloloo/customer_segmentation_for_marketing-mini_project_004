@@ -1,5 +1,5 @@
-🚀 Customer Segmentation RFM Analysis
-📌 Project Overview
+##🚀 Customer Segmentation RFM Analysis
+📌 ## Project Overview
 this project try to identify distinct customer segmentetion based on their transactional behavior. By leveraging RFM (Recency, Frequency, and Monetary) analysis, this project giving the best strategy for marketing to improve retention dan maximize revenue.
 🛠️ Tech Stack & Methodology
 Dataset : https://archive.ics.uci.edu/dataset/352/online+retail
