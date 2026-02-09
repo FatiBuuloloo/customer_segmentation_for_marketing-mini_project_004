@@ -18,6 +18,7 @@ I implemented a structured process to get Recency, Feature, and Monetary Feature
   Monetary: Total spending per customer.
 - **Scaling**: Applied feature scaling to the RFM table before feeding it into the HDBSCAN and GMM models.
 ## 📈 Result & Strategic Insights
+![RadarChart](Radarchart.png)
 ### Result
 Based on the clustering result, the model successfully identified 4 cluster: **Loyal Customer**, **Promising Customer**, **Potential Lapsed Customer**, and **Loss Customer**.
 - **Loyal Customer** with the highest total expenses, the most frequent customer to visit, and have the lowest recency (active recently).
