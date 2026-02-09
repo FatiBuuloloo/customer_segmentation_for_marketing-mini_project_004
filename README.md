@@ -31,4 +31,4 @@ To improve Retention and Revenue, I recommend the following targeted strategies:
 - **Loyal Customer**, implementing Up-selling strategies by promoting premium/luxury items. Offer exclusive services or early access to new collections to maintain high satisfaction.
 - **Promising Cutomer**, use a personalized recommendation engine to suggest products that align with their previous purchases. The goal is to increase their purchase frequency and move them into the "Loyal" tier.
 - **Loss Customer**, attempt a low-cost re-engagement via email. If there is no response, minimize marketing spend on this group. Reallocating the budget from this segment to the Potential Lapsed or Promising clusters will yield a much higher Return on Investment (ROI).
-![Customer Distribution](Customer Segmentation Distribution.png)
+![Customer Distribution](Customer_Segmentation_Distribution.png)
