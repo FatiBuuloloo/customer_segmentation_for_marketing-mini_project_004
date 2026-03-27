@@ -1,13 +1,14 @@
-# 🚀 Customer Segmentation RFM Analysis
-## 📌 Project Overview
+# Customer Segmentation RFM Analysis
+## Project Overview
 this project try to identify distinct customer segmentetion based on their transactional behavior. By leveraging **RFM (Recency, Frequency, and Monetary)** analysis, this project giving the best strategy for marketing to improve retention dan maximize revenue.
 
-## 🛠️ Tech Stack & Methodology
+## Tech Stack & Methodology
 - **Dataset**: https://archive.ics.uci.edu/dataset/352/online+retail
 - **Framework**: RFM (Recency, Frequency, Monetary) Analysis.
 - **Clustering Algorithms**: HDBSCAN (Hierarchical Density-Based Spatial Clustering) and GMM (Gaussian Mixture Model).
 - **Libraries**: Pandas, NumPy, Scikit-learn, HDBSCAN, Matplotlib, Seaborn.
-## ⚙️ Feature Engineering RFM
+
+## Feature Engineering RFM
 I implemented a structured process to get Recency, Feature, and Monetary Feature
 - **Data Cleaning**: Extracted total purchase values and addressed anomalies in Quantity and UnitPrice.
 - **Handling Outlier**: evaluated several techniques, including Quantile, Log, Yeo-Johnson transformation and Box-Cox transformations.
@@ -17,7 +18,8 @@ I implemented a structured process to get Recency, Feature, and Monetary Feature
   Frequency: Total number of transactions.
   Monetary: Total spending per customer.
 - **Scaling**: Applied feature scaling to the RFM table before feeding it into the HDBSCAN and GMM models.
-## 📈 Result & Strategic Insights
+
+## Result & Strategic Insights
 ![RadarChart](Radarchart.png)
 ### Result
 Based on the clustering result, the model successfully identified 4 cluster: **Loyal Customer**, **Promising Customer**, **Potential Lapsed Customer**, and **Loss Customer**.
